@@ -1,0 +1,5 @@
+print("Digite dois números")
+N1= input("Digite o primeiro número:")
+N2 = input("Digite o segundo número:")
+Soma = int(N1) + int(N2)
+print(Soma)

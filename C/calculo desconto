@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+float salario, desconto;
+int main()
+{
+   
+    printf("Informe o salário:\n");
+    scanf("%f", &salario);
+    desconto = (salario * 11) / 100;
+    if (desconto > 318.20){
+       printf("Desconto: 318.20");
+    } else{
+        printf("Desconto: %f", desconto);
+    }
+   
+    return 0;
+}

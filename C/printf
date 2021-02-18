@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Hello World\n");
+    printf("Hello World\t");
+    printf("Hello World\f");
+    printf("Hello World\a");
+    printf("Hello World\r");
+    printf("Hello World\\");
+    printf("Hello World\0");
+    printf("Hello World\'");
+    printf("Hello World\"");
+    printf("Hello World");
+    printf("%d",25);
+    printf("%f", 3.444);
+    return 0;
+}

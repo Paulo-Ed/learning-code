@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+float a = 0.3 + 0.1;
+int main()
+{
+    if(a == 0.3){
+    printf("sucesso\n");
+} else {
+    printf("Deu pau!\n");
+    printf("%.10f", a);
+}
+    return 0;
+}

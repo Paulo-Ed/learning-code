@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    int Mes;
+    printf("Digite o Número do Mês:");
+    scanf("%d", &Mes);
+    switch(Mes){
+        case 1:
+            printf("Janeiro\n");
+            break;
+        
+        case 2:
+            printf("Fevereiro\n");
+    }
+
+    return 0;
+}

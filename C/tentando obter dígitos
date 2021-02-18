@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Codigo, A, B, BR, C, CR, D, DR, E;
+int main()
+{
+    printf("Digite um número de cinco algarismos:\n");
+    scanf("%i", &Codigo);
+    A = Codigo % 10;
+    printf("%i\n", A);
+    B = Codigo % 100;
+    BR = (B - A) / 10;
+    printf("%i\n", BR);
+    C = Codigo % 1000;
+    CR = (C - B - A) / 100;
+    printf("%i\n", CR);
+    D = Codigo % 10000;
+    DR = D - C - B - A ;
+    printf("%i\n", DR);
+    E = Codigo / 10 ;
+    printf("%i\n", E);
+    return 0;
+}

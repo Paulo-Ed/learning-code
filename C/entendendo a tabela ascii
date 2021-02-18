@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+char b = 'a';
+char a = 97;
+
+int main()
+{
+    printf("%c %c\n", b, a);
+    printf("%d %d\n", b, a);
+
+    return 0;
+}

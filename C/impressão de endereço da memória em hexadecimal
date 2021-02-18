@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int a = 1;
+int b = 3.5;
+char c = 10;
+char d = 10;
+int main()
+{
+    printf("%x\n",&a);
+    printf("%x\n", &b);
+    printf("%x\n", &c);
+    printf("%x\n", &d);
+    return 0;
+}

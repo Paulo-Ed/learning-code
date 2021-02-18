@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int N, M, c, d, u;
+
+int main(){
+    printf("Digite um número de 3 algarismos:\n");
+    scanf("%i", &N);
+    u = N % 10;
+    N = N / 10;
+    d = N % 10;
+    N = N / 10;
+    c = N;
+    M = u * 100 + d * 10 + c;
+    printf("%i", M);
+    
+    
+    
+    
+    return 0;
+}

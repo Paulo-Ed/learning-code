@@ -1,0 +1,9 @@
+#include <stdio.h>
+float a = 1;
+char b = 1;
+int main()
+{
+    printf("%30.2f", a);
+
+    return 0;
+}

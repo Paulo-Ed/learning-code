@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int numero_de_ovos;
+int ovos_colocados;
+
+int main()
+{
+    numero_de_ovos = 0;
+    while (numero_de_ovos < 4){
+        printf("Coloque os ovos\n");
+        scanf("%d", &ovos_colocados);
+        numero_de_ovos = ovos_colocados + numero_de_ovos;
+        printf("Ovos: %d\n", numero_de_ovos);
+    }
+
+    return 0;
+}

@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float HorasTrabalhasdasMes;
+float ValorHora;
+float PercentualDesconto;
+float SalarioBruto, SalarioLiquido;
+float TotalDesconto;
+
+int main()
+{
+    printf("Calculando o Salário:\n");
+    printf("Informe o valor da hora trabalhada:\n");
+    scanf("%f", &ValorHora);
+    printf("Informe quantas horas voce trabalhou no mes:\n");
+    scanf("%f", &HorasTrabalhasdasMes);
+    printf("Informe o percentual de desconto:\n");
+    scanf("%f", &PercentualDesconto);
+    SalarioBruto = HorasTrabalhasdasMes * ValorHora;
+    if(HorasTrabalhasdasMes < 40){
+        TotalDesconto = (PercentualDesconto/100) * SalarioBruto;
+    }
+    
+    SalarioLiquido = SalarioBruto - TotalDesconto;
+    printf("Horas Trabalhasdas Mes: %f\n", HorasTrabalhasdasMes);
+    printf("Salário Bruto: %f\n", SalarioBruto);
+    printf("Desconto: %f\n", TotalDesconto);
+    printf("Salário Líquido: %f\n", SalarioLiquido);
+
+    return 0;
+}

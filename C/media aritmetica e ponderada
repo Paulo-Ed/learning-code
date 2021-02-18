@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+float nota1, nota2, nota3, MediaA, MediaP;
+int escolha, comissao;
+int main()
+{
+    printf("Escolha o tipo de Média:\n");
+    printf("Média Aritmética(1) Média Ponderada(2)\n");
+    scanf("%d", &escolha);
+    if (escolha == 1){
+        printf("Informe as notas:\n");
+        scanf("%f", &nota1);
+        scanf("%f", &nota2);
+        scanf("%f", &nota3);
+        MediaA = (nota1 + nota2 + nota3)/ 3;
+        printf("Média: %.2f", MediaA);
+    }
+    if(escolha == 2){
+        printf("Informe as notas:\n");
+        scanf("%f", &nota1);
+        scanf("%f", &nota2);
+        scanf("%f", &nota3);
+        MediaP = ((nota1 * 3) + (nota2 * 3) + (nota3 * 4)) / 10;
+        printf("Média: %.2f", MediaP);
+    }
+    return 0;
+}

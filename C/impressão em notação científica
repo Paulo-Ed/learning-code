@@ -1,0 +1,8 @@
+#include <stdio.h>
+char x = -10;
+int main()
+{
+    printf("%E", x);
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int a = 1;
+float b = 3.5;
+int c = 100000;
+int main()
+{
+    printf("%d\n",sizeof(int));
+    printf("%d\n",sizeof(float));
+    printf("%ld\n",sizeof(c));
+    return 0;
+}

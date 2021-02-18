@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float taxaDolar = 4.37;
+float valorReal = 100.0;
+float valorDolar;
+
+int main(){
+    valorDolar = valorReal / taxaDolar;
+    printf("O valor em Dólar é: %f", valorDolar);
+    return 0;
+    
+    
+}

@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+char x = -138;
+int main()
+{
+    printf("%u", x);
+
+    return 0;
+}

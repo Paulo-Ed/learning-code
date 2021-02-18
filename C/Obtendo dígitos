@@ -1,0 +1,22 @@
+#include <stdio.h>
+int numero, a, b, c, d, e;
+int main()
+{
+    printf("Digite um número de 5 algarismos:\n");
+    scanf("%i", &numero);
+    e = numero % 10;
+    numero = numero / 10;
+    printf("%i\n", e);
+    d = numero % 10;
+    printf("%i\n", d);
+    numero = numero / 10;
+    c = numero % 10;
+    printf("%i\n", c);
+    numero = numero / 10;
+    b = numero % 10;
+    printf("%i\n", b);
+    numero = numero / 10;
+    a = numero % 10;
+    printf("%i\n", a);
+    return 0;
+}

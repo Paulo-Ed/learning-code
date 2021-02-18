@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Num1, Num2 = 0;
+int main()
+{   
+    printf("Digite Números:\n");
+    scanf("%d", &Num1);
+    if(Num1 > Num2){
+        Num2 = Num1;
+    
+    }
+    
+    scanf("%d", &Num1);
+    if(Num1 > Num2){
+        Num2 = Num1;
+    }
+    
+    scanf("%d", &Num1);
+    if(Num1 > Num2){
+        Num2 = Num1;
+    }
+    
+    scanf("%d", &Num1);
+    if(Num1 > Num2){
+        Num2 = Num1;
+        printf("Maior Número: %d", Num2);
+    }
+    return 0;
+}
