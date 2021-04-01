@@ -1,0 +1,29 @@
+QUESTÃO1
+	O tutorial facilita a aprendizagem.
+
+QUESTÃO2
+	A imagem apresenta a criação de uma classe que possui o método main.
+
+QUESTÃO3 
+	Foi necessário criar uma classe com o nome Welcome1 adicionar o
+ método main e a mensagem para ser impressa e compilar.
+
+QUESTAO10
+	O programa pediu o primeiro numero, depois de digitado e apertado enter 
+o programa pediu o segundo número e depois de digitado e apertado enter o 
+programa exibiu o resultado da soma. 
+
+QUESTAO11
+	Cria um objeto da classe de tipo scanner para entrada de dados.
+
+QUESTAO12
+	A linha 3 adiciona o recurso da biblioteca java para entrada de dados. A linha
+11 não compila, pois o recurso não foi importado.
+
+QUESTAO15
+	Ocorre um erro pois o tipo de dado definido a variavel é inteiro e 
+as letras são caracteres.
+
+QUESTAO16
+	O erro ocorre quando o segundo valor é 0, pois não existe divisão por zero, dessa 
+forma o java informa um erro.

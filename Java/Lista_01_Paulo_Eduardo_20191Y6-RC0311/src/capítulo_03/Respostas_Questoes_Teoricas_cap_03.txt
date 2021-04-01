@@ -1,0 +1,42 @@
+QUESTÃO 1
+	É uma estrutura que define os aspectos gerais de um conjunto de objetos. Uma classe representa um grupo de objetos (entidade) através de suas características básicas (atributos) e suas ações (métodos). É o método responsável por criar as instâncias das classes, ou seja, criar os objetos. Além disso ele é responsável por fornecer valores iniciais que o objeto deve ter. Método é o componente da classe que define e executa as ações que a classe realiza. Um objeto é a instanciação de uma classe. Ele é uma representação de uma entidade do mundo real (seja física ou conceitual) definido através da abstração da sua classe.
+
+QUESTÃO 2
+	É definida uma classe com um atributo privado nome, para acessar e manipular o atributo  dessa classe é definido um método público set para alterar o nome e o método público get para acessar o nome.
+
+QUESTÃO 3
+	O modificador utilizado é o private ou privado que torna o acesso ao atributo da classe proibído de ser feito diretamente e de fora da classe onde ele foi definido.
+
+QUESTÃO 4
+	A classe AccountTest implementa um objeto do tipo da classe Account e atribui ao objeto um valor para o atributo name ou nome.
+
+QUESTÃO 5
+	Os métodos get e set fornecem uma camada de segurança a estrutura da classe visto que limitam a modificação do atributo de modo prévio ao se definir o atributo como privado.
+
+QUESTÃO 6
+	O null é utilizado para definir o estado inicial de uma variável de instância quando não é fornecido um valor específico.
+
+QUESTÃO 7
+	O construtor é definido com o mesmo nome da classe e não possui retorno, já um método possui um nome diferente e pode ter um retorno.
+
+QUESTÃO 8
+	a) O código não compila e é exibido um erro.
+	b) O código não compila porque quando foi definido a criação do objeto foi usado o construtor padrão que o java cria sem parâmetros, e ao definir um novo construtor que possui um parâmento o código gera um erro.
+
+QUESTÃO 9
+	O código executa visto que agora ao associar o objeto a variável é definido o parâmetro usado no construtor definido anteriormente.
+
+QUESTÃO 10
+	Sim o código executa a classe AccountTest.
+
+QUESTÃO 11
+	O código das linhas 17 e 24 definem um mecanismo de validação para o uso do construtor ao instanciar a classe, visto que estão definidos dois construtores definidos com parâmetros específicos para cada situação.
+
+QUESTÃO 12
+	Apenas a refeência indicada recebe o valor, visto que é indicado para qual conta se deve modificar a referência.
+
+QUESTÃO 13
+	 O código duplicado que pode não ser igual, mas muito parecido dificulta a manutenção do código ou sua atualização ao longo do tempo, principalmente em sistemas grandes. Uma forma de melhorar a manutenção é o reúso de estruturas para funs semelhantes.
+
+QUESTÃO 15
+	A classe importa um recurso de ccaixa de mensgem ou de texto, define uma variavel que recebe a caixa de texto que irá receber uma entrada e depois exibe uma nova caixa de texto com uma menssagem.
