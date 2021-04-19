@@ -1,0 +1,57 @@
+body{
+    background-color: greenyellow;
+}
+
+header{
+    background-color: indianred;
+}
+
+nav{
+    background-color: indigo;
+}
+
+article{
+    background-color: khaki;
+}
+
+section{
+    background-color: lightblue;
+}
+
+aside{
+    background-color: lightseagreen;
+}
+
+footer{
+    background-color: magenta;
+}
+
+h1{
+    background-color: mediumblue;
+}
+
+p{
+    background-color: moccasin;
+}
+
+ul{
+    background-color: green;
+}
+
+ol{
+    background-color: grey;
+}
+
+dl{
+    background-color: red;
+}
+
+img, iframe{
+    height: 200px;
+    width: 200px;
+    
+}
+
+a{
+    background-color: royalblue;
+}
