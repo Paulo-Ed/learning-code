@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="booking.css">
+    <title>Booking</title>
+</head>
+<body>
+    <form>
+        <h1>Pesquisar</h1>
+        <label>Destino/Nome da acomodação</label>
+        <input list="cidades">
+        <datalist id="cidades">
+            <option>Salvador</option>
+            <option>Manaus</option>
+            <option>João Pessoa</option>
+            <option>Recife</option>
+            <option>Fortaleza</option>
+        </datalist>
+        <label>Quantidade Pessoas</label>
+        <input list="adultos">
+        <datalist id="adultos">
+            <option>1 Adulto</option>
+            <option selected>2 Adultos</option>
+            <option>3 Adultos</option>
+            <option>4 Adultos</option>
+            <option>5 Adultos</option>
+        </datalist>
+        <input list="crianças">
+        <datalist id="crianças">
+            <option selected>0 criança</option>
+            <option>1 criança</option>
+            <option>2 crianças</option>
+            <option>3 crianças</option>
+            <option>4 crianças</option>
+        </datalist>
+        <input type="checkbox"><label>Vou viajar a trabalho</label>
+        <button>Pesquisar</button>
+    </form>
+</body>
+</html>
