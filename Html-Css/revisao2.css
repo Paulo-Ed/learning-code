@@ -5,3 +5,11 @@ form{
 label{
     margin: 10px;
 }
+
+label:hover{
+    color: green;
+}
+
+button:hover{
+    background-color: green;
+}
