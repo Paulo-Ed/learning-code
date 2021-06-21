@@ -25,4 +25,13 @@
     var pesoDoUsuario = prompt(nomeDoUsuario + " qual é o seu peso?")
     var imcDoUsuario = calculaImc(pesoDoUsuario, alturaDoUsuario)
     mostra("O seu Imc é " + imcDoUsuario)
+    if(imcDoUsuario < 18.5){
+        mostra("Seu Imc indica que você está ABAIXO do peso.")
+    }
+    if(imcDoUsuario > 35){
+        mostra("Seu Imc indica que você está ACIMA do peso.")
+    }
+    if(imcDoUsuario >= 18.5 && imcDoUsuario <= 35){
+        mostra("OK! Seu Imc está dentro dos dois limites.")
+    }
 </script>
