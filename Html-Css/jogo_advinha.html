@@ -1,0 +1,32 @@
+<script>
+    var pularLinha = function(){
+        document.write("<br>")
+    }
+
+    var mostra = function(frase){
+        document.write(frase)
+        pularLinha()
+    }
+
+    var sorteia = function(n){
+        var n2 = Math.round(Math.random() * n)
+        return n2
+    }
+    var n = prompt("Defina o intervalo do sorteio")
+    var numeroPensado = sorteia(n)
+    var chute = prompt("Já pensei. Qual você acha que é?")
+    if(isNaN(chute)){
+        mostra("Apenas números são válidos")
+    }
+    if(chute == numeroPensado){
+        mostra("Uau! Você acertou pois eu pensei no número " + numeroPensado)
+    } else{
+        mostra("Você errou! Eu tinha pensado no número " + numeroPensado)
+        if(chute > numeroPensado){
+            mostra("O " + chute + " é maior que o " + numeroPensado + " Que Eu pensei!")
+        } else{
+            mostra("O " + chute + " é menor que o " + numeroPensado + " Que Eu pensei!")
+        }
+    }
+
+</script>
