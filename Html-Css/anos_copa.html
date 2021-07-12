@@ -3,7 +3,8 @@
         document.write(frase + "<br>")
     }
     var anoLimite = prompt("Qual o Ano Limite?")
-    var anoDeCopa = 1930
+    var anoComoTexto = prompt("Informe o Ano Inicial")
+    var anoDeCopa = parseInt(anoComoTexto)
     while(anoDeCopa <= anoLimite){
         mostra(anoDeCopa + " Tem Copa!")
         anoDeCopa = anoDeCopa + 4
