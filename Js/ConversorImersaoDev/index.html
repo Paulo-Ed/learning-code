@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="container organiza">
+        <h1 class="page-title">
+          CONVERSOR
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em Dólar, Euro, Bitcoin, Kelvin, Fahrenheit e Ano-Luz
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Dolar</button>
+        <button type="submit" onclick="ConverterEuro()">Euro</button>
+        <button type="submit" onclick="ConverterBitcoin()">Bitcoin</button>
+        <button type="submit" onclick="ConverterKelvin()">Kelvin</button>
+        <button type="submit" onclick="ConverterFahrenheit()">Fahrenheit</button>
+        <button type="submit" onclick="ConverterAnoLuz()">Ano-luz</button>
+        <h2 id="valorConvertido"></h2>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</html>
